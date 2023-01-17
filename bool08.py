@@ -7,4 +7,13 @@ def main(a):
         bool
     """
     # Write your code here
-    return
+    
+    return a >= 0 and type(a) == int
+
+
+print(type(3) == type(1))
+
+
+# a = 12
+
+# print(type(a) == type(1))
